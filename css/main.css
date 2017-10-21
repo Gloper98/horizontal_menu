@@ -14,16 +14,18 @@ ul{
   margin: 0;
   background: #2e2e2a;
   line-height: 40px;
-
+  /*Le devuelve su propiedad de blocke CUANDO USAMOS ELEMENTOS FLOTADOS*/
+  overflow: auto;
 
 }
 
 li{
   /*outline: 1px solid red;*/
   width: 100px;
-
-  display: inline-block;
-
+  /*Utilizamos lapropiedad display:inline-block para hacer que li se comporte como elemento lineal*/
+  /*display: inline-block;*/
+  /*Tambien podemos utilizar la propiedad float, la cual cumple con la mism funcion, pero le quita la caracteristica de blocke de su etiqueta contenedor*/
+  float:left;
   text-align: center;
 }
 
